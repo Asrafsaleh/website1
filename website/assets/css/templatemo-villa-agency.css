@@ -151,7 +151,7 @@ body {
 }
 
 .section-heading h6 {
-  color: #ee626b;
+  color: #0e0e0e;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -191,10 +191,8 @@ body {
 }
 
 .main-button a {
-  display: inline-block;
-  background-color: #1e1e1e;
-  color: #fff;
-  font-size: 14px;
+  color: #0e0e0e;
+  font-size: 40px;
   font-weight: 500;
   height: 40px;
   line-height: 40px;
@@ -745,7 +743,7 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-01.jpg);
+  background-image: url(../images/cedars-sinai-fb\ 1.png);
 }
 
 .main-banner .item-2 {
@@ -958,7 +956,7 @@ Video Style
 */
 
 .video {
-  background-image: url(../images/video-bg.jpg);
+  background-image: url(../images/image\ 11.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1825,4 +1823,121 @@ body {
   .contact-page .section-heading {
     margin-right: 100px;
   }
+  .main-banner .header-text {
+    color: white; /* Mengubah semua teks di header banner menjadi putih */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Opsional, biar lebih terlihat di atas gambar */
+  }
+  .location-text {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.doctors-choice {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.doctors-choice h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.doctor-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.doctor-card {
+    background: #ffffff;
+   border-radius: 8px;
+   padding: 20px;
+   text-align: center;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+   height: 100%;
+    width: 300px;
+}
+
+.doctor-photo-frame {
+    background: #d9d9d9;
+    padding: 15px;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-photo-frame img {
+    width: 90%;
+    height: auto;
+}
+
+.doctor-name {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.doctor-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.doctor-desc {
+    margin-top: 15px;
+    background: #eaeaea;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.tekspandangan {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.warna-kuning {
+  color: #fae19e;
+}
+  
+}
+.doctor-speciality {
+  background: #f2f2f2;
+  padding: 14px 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.speciality-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.speciality-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  text-align: right;
+  margin-left: auto;
+}
+
+.speciality-desc {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  margin: 10;
+}
 }
